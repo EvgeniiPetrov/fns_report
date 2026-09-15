@@ -1,0 +1,23 @@
+[project]
+name = "fns_report"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lxml>=6.1.3",
+    "pydantic>=2.13.5",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.16.7",
+    "xmlschema>=4.3.2",
+    "xsdata[cli,lxml]>=26.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "fns_reports"
+module-root = "src"
