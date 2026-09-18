@@ -4,7 +4,10 @@ __pycache__/
 build/
 dist/
 wheels/
-docs/*
+docs/learn/*
+docs/python_fns_code_roadmap_agile_offline_v3.md
+docs/python_fns_standalone_methodology_v4.md
+docs/python_fns_uv_offline_workflow.md
 *.egg-info
 
 # Virtual environments
