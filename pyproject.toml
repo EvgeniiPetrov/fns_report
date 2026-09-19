@@ -26,3 +26,6 @@ dev = [
     "ruff>=0.16.7",
     "xsdata[cli,lxml]>=26.2",
 ]
+
+[project.scripts]
+fns_report = "fns_reports.cli:main"
