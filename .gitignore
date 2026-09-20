@@ -5,11 +5,8 @@ build/
 dist/
 wheels/
 docs/learn/*
-docs/python_fns_code_roadmap_agile_offline_v3.md
-docs/python_fns_standalone_methodology_v4.md
-docs/python_fns_standalone_methodology_v3.md
-docs/python_fns_uv_offline_workflow.md
 docs/docs-pytest-org-en-latest.pdf
+docs/python_fns_agile_roadmap_v5.md
 *.egg-info
 
 # Virtual environments
